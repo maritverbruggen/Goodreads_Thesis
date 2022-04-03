@@ -18,5 +18,5 @@ max(full_data$review_words, na.rm=TRUE)
 #descriptive statistics for giveaways 
 full_data$giveaway_duration <- full_data$giveaway_end_date - full_data$giveaway_start_date
 full_data$giveaway_end_date <- as.Date(full_data$giveaway_end_date, na.rm=TRUE)
+memory.limit(10000)
 
-memory.limit()
